@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "data_types",
+  "info": {
+    "name": "dataTypes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Content": {
+      "type": "richtext"
+    },
+    "Tags": {
+      "type": "enumeration",
+      "enum": [
+        "UX",
+        "Visual",
+        "Front"
+      ]
+    }
+  }
+}

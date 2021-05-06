@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "skills",
+  "info": {
+    "name": "Skills"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "designSkills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "skills.design-skills"
+    },
+    "frontEndSkills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "skills.front-end-skills"
+    }
+  }
+}

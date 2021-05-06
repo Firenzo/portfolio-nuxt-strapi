@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_skills_front_end_skills",
+  "info": {
+    "name": "frontEndSkills",
+    "icon": "laptop-code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "skillName": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

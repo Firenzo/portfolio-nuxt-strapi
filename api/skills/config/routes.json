@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/appData/skills",
+      "handler": "skills.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/appData/skills",
+      "handler": "skills.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/appData/skills",
+      "handler": "skills.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "work_experiences",
+  "info": {
+    "name": "workExperience",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "companyName": {
+      "type": "string",
+      "private": false,
+      "unique": true
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "function": {
+      "type": "string"
+    },
+    "dateStart": {
+      "type": "string"
+    },
+    "dateEnd": {
+      "type": "string"
+    }
+  }
+}

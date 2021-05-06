@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_skills_design_skills",
+  "info": {
+    "name": "designSkills",
+    "icon": "pen",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "skillName": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}
